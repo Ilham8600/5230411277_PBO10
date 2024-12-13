@@ -8,7 +8,7 @@ conn = mysql.connector.connect(
 )
 cur = conn.cursor()
 
-# Membuat Database (opsional, jika belum ada)
+# Membuat Database
 # cur.execute("CREATE DATABASE penjualan")
 
 # Membuat tabel Pegawai
